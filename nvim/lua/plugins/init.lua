@@ -31,6 +31,7 @@ return require('packer').startup(function()
   use 'hrsh7th/nvim-cmp'
   use 'onsails/lspkind-nvim' 
   use 'folke/tokyonight.nvim'
+  use 'overcache/NeoSolarized'
 
 end) 
 
