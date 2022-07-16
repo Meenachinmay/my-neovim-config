@@ -32,6 +32,8 @@ return require('packer').startup(function()
   use 'onsails/lspkind-nvim' 
   use 'folke/tokyonight.nvim'
   use 'overcache/NeoSolarized'
+  use 'tpope/vim-fugitive'
+  use 'tpope/vim-rhubarb'
 
 end) 
 
