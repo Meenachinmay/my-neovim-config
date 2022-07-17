@@ -34,6 +34,8 @@ return require('packer').startup(function()
   use 'overcache/NeoSolarized'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
-
+  use 'hrsh7th/vim-vsnip'
+  use 'hrsh7th/vim-vsnip-integ'
+  use "Pocco81/AutoSave.nvim"
 end) 
 
