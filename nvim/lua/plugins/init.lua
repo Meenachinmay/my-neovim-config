@@ -37,5 +37,7 @@ return require('packer').startup(function()
   use 'hrsh7th/vim-vsnip'
   use 'hrsh7th/vim-vsnip-integ'
   use "Pocco81/AutoSave.nvim"
+  use "matze/vim-move"
+  use {'neoclide/coc.nvim', branch = 'release'}
 end) 
 
