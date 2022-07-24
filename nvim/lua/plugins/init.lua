@@ -39,6 +39,6 @@ return require('packer').startup(function()
   use "Pocco81/AutoSave.nvim"
   use "matze/vim-move"
   use {'neoclide/coc.nvim', branch = 'release'}
-  use 'aserebryakov/vim-todo-lists'
+  use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
 end) 
 
