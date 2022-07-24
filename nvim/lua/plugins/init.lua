@@ -39,5 +39,6 @@ return require('packer').startup(function()
   use "Pocco81/AutoSave.nvim"
   use "matze/vim-move"
   use {'neoclide/coc.nvim', branch = 'release'}
+  use 'aserebryakov/vim-todo-lists'
 end) 
 
