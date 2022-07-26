@@ -8,7 +8,7 @@ return require('packer').startup(function()
     }
   use { 'hoob3rt/lualine.nvim', requires = {'kyazdani42/nvim-web-devicons', opt = true } }
   use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
-  use { 'kyazdani42/nvim-tree.lua', requires = { 'kyazdani42/nvim-web-devicons' } }
+  --use { 'kyazdani42/nvim-tree.lua', requires = { 'kyazdani42/nvim-web-devicons' } }
   use { 'windwp/nvim-ts-autotag' }
   use { 'p00f/nvim-ts-rainbow' }
   use { 'windwp/nvim-autopairs' }
@@ -40,5 +40,6 @@ return require('packer').startup(function()
   use "matze/vim-move"
   use {'neoclide/coc.nvim', branch = 'release'}
   use {'tzachar/cmp-tabnine', run='./install.sh', requires = 'hrsh7th/nvim-cmp'}
+  use 'preservim/nerdtree'
 end) 
 

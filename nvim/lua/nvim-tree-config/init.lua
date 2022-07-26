@@ -1,5 +1,5 @@
 -- examples for your init.lua
-vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
+--vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
 -- empty setup using defaults
 require("nvim-tree").setup()
 
